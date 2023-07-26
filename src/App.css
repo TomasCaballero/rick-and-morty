@@ -207,7 +207,7 @@
 .left__content{
   display: flex;
   flex-direction: column;
-  padding-top: 10%;
+  padding-top: 2rem;
 }
 
 /* footer right */
