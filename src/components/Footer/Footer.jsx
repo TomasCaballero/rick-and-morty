@@ -5,7 +5,7 @@ const Footer = () => {
             <div className="footer__top">
                 <div className="footer__left">
                     <a href="https://www.hbomax.com/ar/es" target="_blank" rel="noopener noreferrer">
-                        <img src="src\assets\img\hbo.webp" alt="" className="footer__left-img" />
+                        <img src="https://hbomax-images.warnermediacdn.com/2020-05/square%20social%20logo%20400%20x%20400_0.png" alt="" className="footer__left-img" />
                     </a>
                     <div className="left__content">
                         <h4>Watch the series!</h4>
@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__right">
-                    <img src="src/assets/img/img-footer.png" alt="" className="footer__img" />
+                    <img src="https://www.pngall.com/wp-content/uploads/4/Rick-And-Morty-PNG-Free-Download.png" alt="" className="footer__img" />
                     <div className="footer__content">
                         <div className="footer__contact">
                             <h4 className="contact__title">Contact</h4>
