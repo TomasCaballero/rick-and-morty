@@ -15,7 +15,6 @@ const Header = ({pageNumber, setPageNumber}) => {
     return (
         <header className="layout__header">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/1200px-Rick_and_Morty.svg.png" alt="" className="header__logo" />
-            {/* <h1 className="header__title"><samp className="title__rick">R</samp>ick&<samp className="title__morty">M</samp>orty</h1> */}
             <form className="header__form" onSubmit={obtenerPageNumber}>
                 <input type="number" name="number" id="" placeholder={`Page number ${pageNumber}`} className="header__input"/>
                 <input type="submit" value="Search" className="btn__buscar"/>
